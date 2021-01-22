@@ -32,10 +32,12 @@ nav span {
   height: 100px;
 }
 
-#yoga-text{
-  color: black;
-  padding-left: 10px;
-  margin-top: 10px;
+.bg-text{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 25%;
+  padding-right: 35%;
 }
 /* Inizio colonne */
 
@@ -62,9 +64,7 @@ nav span {
 
 .bg-yoga {
   background: url("../img/banner.jpg");
-  background-color: grey;
   background-position: center;
-  opacity: 0.5;
   border-radius: 20px;
   height: 500px;
   margin-top: 30px;
@@ -108,7 +108,7 @@ nav span {
   border: 1px solid lightgrey;
 }
 
-.text1 {
+.big-text {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 1%;
@@ -118,8 +118,17 @@ nav span {
   margin-top: 20px;
 }
 
-.bg-purple {
-  background: #8801fe;
+/* Footer */
+
+.bg-end {
   height: 70px;
   margin-top: 10px;
 }
+
+#author {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#author:after {
+    content: '\26A1';
