@@ -17,6 +17,17 @@
   clear: both;
 }
 
+/* Header */
+
+.logo {
+  width: 12%;
+}
+
+nav span {
+  color: grey;
+  padding-left: 10px;
+}
+
 /* Inizio colonne */
 
 [class^="col-"] {
@@ -40,9 +51,9 @@
 }
 
 /* Background layout */
-.bg-pink {
-  background: #e579e6;
-  height: 150px;
+
+.head {
+  height: 100px;
 }
 
 .bg-orange {
